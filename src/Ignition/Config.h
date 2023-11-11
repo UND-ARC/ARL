@@ -1,3 +1,14 @@
+/*
+	Config.h
+	Header file that defines the top level configuration settings of the microcontroller.
+	
+	:version: 1.0
+	:organization: University of North Dakota Advanced Rocketry Club
+	:address: 
+	:authors: Neko'z
+	:date: November 11, 2023
+*/
+
 // Serial Pins
 #define SERIAL_RX          0  // Debug serial recieve pin
 #define SERIAL_TX          1  // Debug serial send pin

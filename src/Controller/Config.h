@@ -1,3 +1,14 @@
+/*
+	Config.h
+	Header file that defines the top level configuration settings of the microcontroller.
+	
+	:version: 1.0
+	:organization: University of North Dakota Advanced Rocketry Club
+	:address: 
+	:authors: Neko'z
+	:date: November 11, 2023
+*/
+
 // Serial Pins
 #define SERIAL_RX          0  // Debug serial recieve pin
 #define SERIAL_TX          1  // Debug serial send pin
@@ -10,7 +21,6 @@
 // HID Pins
 #define ROT_ENCODER_0     A0  // Rotary encoder data pin 1
 #define ROT_ENCODER_1     A1  // Rotary encoder data pin 2
-
 #define ROT_ENCODER_BTN   A2  // Rotary encoder button pin
 #define BTN_SECONDARY     A4  // Yellow button pin
 #define BTN_PRIMARY       A5  // Red button pin
@@ -29,7 +39,6 @@
 #define IGNITION_ADDR      2  // Ignition Box wireless network address (1-255)
 #define CONTROLLER_ADDR    3  // Controller Box wireless network address (1-255)
 #define ENCRYPT_KEY        "2CLOSE2THEROCKET"  // 16 character Packet encryption key
-
 
 // SD Card Config
 #define SD_SS              4  // SD card SPI select pin
