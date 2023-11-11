@@ -2,9 +2,6 @@
     TempSensor.cpp
     Class method definitions for TMP36 Temperature sensors.
     
-    :version: 1.0
-    :organization: University of North Dakota Advanced Rocketry Club
-    :address: 
     :authors: Neko'z
     :date: November 11, 2023
 */
